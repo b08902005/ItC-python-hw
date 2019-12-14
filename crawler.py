@@ -1,7 +1,7 @@
+from time import sleep
 from datetime import datetime
 import requests
 from lxml import etree
-from time import sleep
 
 
 class Crawler(object):
@@ -32,13 +32,16 @@ class Crawler(object):
             if last_date < start_date:
                 break
         
-        # trim contents
+        # Trim contents
         first_ten_dates = list(zip(*contents[:10]))[0]
         idx_del = list(map(lambda x: x <= end_date, first_ten_dates)).index(True)
         del contents[:idx_del]
         last_ten_dates = list(zip(*contents[-10:]))[0]
         idx_del = list(map(lambda x: x < start_date, last_ten_dates)).index(True)
         del contents[idx_del-10:]
+
+        # Sort contents by date
+        contents.reverse()
         
         return contents
 
