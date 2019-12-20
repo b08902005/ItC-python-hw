@@ -1,7 +1,7 @@
 # ItC-python-hw
 * ### Team members:  
-  B08902005  
-  B06201018
+  B08902005  黃品淳  
+  B06201018  張芷榕
 * ### Environment:  
   Ubuntu 18.04, Python 3.6.9
 ---
@@ -18,4 +18,4 @@ For example, running
 ```
 python3 main.py --start-date 2019-01-01 --end-date 2019-11-04 --output output.csv
 ```
-will give you a CSV file `output.csv` that contains every announcement from 2019/01/01 to 2019/11/04.
+gives you a CSV file `output.csv` that contains every announcement from 2019/01/01 to 2019/11/04.
