@@ -5,7 +5,7 @@
 * ### Environment:  
   Ubuntu 18.04, Python 3.6.9
 ---
-__This project crawls the contents from [Announcement system-NTU CSIE](https://www.csie.ntu.edu.tw/news/news.php?class=101) and saves the results to a CSV file.__  
+__This project crawls contents from [Announcement system-NTU CSIE](https://www.csie.ntu.edu.tw/news/news.php?class=101) and saves the results to a CSV file.__  
 
 On the command line, run  
 ```
