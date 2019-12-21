@@ -11,3 +11,4 @@ if __name__ == '__main__':
     cwd = os.getcwd()
     filename = os.path.join(cwd, args.output)
     df.to_csv(filename, encoding='utf_8_sig')
+    # TODO: write content to file according to spec
